@@ -9,10 +9,7 @@
 name: Java CI with Maven
 
 on:
-  push:
-    branches: [ "feature/**", "develop", "main" ]
-  pull_request:
-    branches: [ "develop", "main" ]
+  workflow_call:
 
 jobs:
 
